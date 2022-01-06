@@ -92,7 +92,7 @@ client.on("message", msg => {
 });
 /////Reklam////
 client.on('wara' , () => {
-var join = client.channels.get("id voice")/// ئاید ڤۆیس
+var join = client.channels.get("927954303979761724")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
