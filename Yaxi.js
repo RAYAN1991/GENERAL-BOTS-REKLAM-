@@ -25,12 +25,12 @@ const data = new Map();
 ////Code Streming////
 client.on("ready", () => {
   console.log(
-    `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
+    `Allup : ${client.guilds.size} | Users : ${client.users.size}`
   ); 
   let statuses = [
     `Servers: ${client.guilds.size} Users: ${client.users.size}`,
-    `By Yaxi`,
-    `Yaxi Is Here`
+    `By`,
+    `GENERAL BOTS `
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -45,7 +45,7 @@ client.on("ready", () => {
 client.on("message", msg => {
   if (msg.content === "REKLAM") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "REKLAM BOMN FREKA"
     );
   }
 });
@@ -53,7 +53,7 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "reklam") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "reklam bomn freka "
     );
   }
 });
@@ -61,7 +61,8 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "Reklam") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+"Reklam Bomn freka " 
+
     );
   }
 });
@@ -69,7 +70,7 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "Reklam?") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "Bomn freka"
     );
   }
 });
@@ -90,25 +91,25 @@ client.on("message", msg => {
   }
 });
 /////Reklam////
-client.on('ready' , () => {
+client.on('wara' , () => {
 var join = client.channels.get("id voice")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
-client.on("message" , message => {
+client.on("By" , message => {
  
-if(message.channel.type === 'dm') {
+if(message.channel.type === 'By') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> link server`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`>https://discord.gg/kR82dFXFGA`)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("id text").send(
+  client.channels.get("927954301127626772").send(
 `> Nerdra la layan <@${message.author.id}> 
 ${message.content}`)
 }
     }
         })
 
-client.login("");
+client.login("OTI4NjUwNzc5Nzg1NTcyMzk0.Ydb3bw.v9-QrOVPlplvcUUhn2ZWcTpE3Yo");
 
