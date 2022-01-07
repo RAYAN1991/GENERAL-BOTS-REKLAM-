@@ -102,7 +102,7 @@ if(message.channel.type === 'By') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> https://discord.gg/kR82dFXFGA`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`> https://discord.gg/kR82dFXFGA `)/// لینکە سیرڤەرە خۆت
  
   client.channels.get("927954301127626772").send(
 `> Nerdra la layan <@${message.author.id}> 
